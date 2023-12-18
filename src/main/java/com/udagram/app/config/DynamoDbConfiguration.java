@@ -13,7 +13,7 @@ import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder;
 
 @Configuration
 @EnableDynamoDBRepositories(basePackages = "com.udagram.app.dao")
-public class DynamoDbConfiguraiton {
+public class DynamoDbConfiguration {
 
     @Value("${amazon.region}")
     private String region;
